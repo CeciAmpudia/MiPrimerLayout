@@ -1,0 +1,42 @@
+.container {
+	width: 700px;
+	margin: 0 auto;
+}
+hr {
+	width: 100%
+}
+.lineaCoders {
+    width: 10%;
+    margin: 0px;
+    height: 2px;
+    background-color: black;
+}
+
+li {
+	display: inline;
+	margin:40px;
+}
+img {
+	width: 100%;
+}
+.media {
+	width: 5%
+}
+p {
+    text-align: center;
+    padding: 0px 50px;
+}
+
+/*Nuestras coders*/
+.imagen{
+	width: 190px;
+}
+.coders {
+	display: inline-block;
+}
+.nombre {
+	position: relative;
+	left: 130px;
+	bottom: 15px;
+	color: white;
+}
