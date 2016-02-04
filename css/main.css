@@ -1,42 +1,105 @@
 .container {
-	width: 700px;
-	margin: 0 auto;
+width: 700px;
+margin: 0 auto;
 }
 hr {
-	width: 100%
+width: 100%
 }
 .lineaCoders {
-    width: 10%;
-    margin: 0px;
-    height: 2px;
-    background-color: black;
+width: 10%;
+margin: 0px;
+height: 2px;
+background-color: black;
 }
-
 li {
-	display: inline;
-	margin:40px;
+display: inline;
+margin:40px;
 }
 img {
-	width: 100%;
+width: 100%;
 }
 .media {
-	width: 5%
+width: 5%
 }
 p {
-    text-align: center;
-    padding: 0px 50px;
+text-align: center;
+padding: 0px 50px;
 }
-
 /*Nuestras coders*/
-.imagen{
-	width: 190px;
+.coders img {
+width: 190px;
+-webkit-filter: brightness(70%);
+filter: brightness(70%);
+margin: 5px;
 }
-.coders {
-	display: inline-block;
+.coders>div {
+display: inline-block;
+margin-bottom: 5px;
 }
 .nombre {
-	position: relative;
-	left: 130px;
-	bottom: 15px;
-	color: white;
+position: relative;
+left: 15px;
+bottom: 45px;
+color: white;
+}
+.med {
+margin: 0px;
+width: 10%;
+height: 2px;
+background-color: black;
+}
+.coder {
+border: 1px solid black;
+width: 100%;
+height: 100%;
+text-align: center;
+}
+.uno {
+width: 150px;
+border-radius: 50%;
+margin: 10px;
+}
+/* Coder */
+h2 {
+padding: 0px 30px;
+text-align: left;
+}
+/* HABILIDADES */
+.html {
+width: 70%;
+background-color: grey;
+margin-left: 8%;
+}
+.css {
+width: 50%;
+background-color: grey;
+margin-left: 8%;
+}
+.javascript {
+width: 30%;
+background-color: grey;
+margin-left: 8%;
+}
+.html p {
+color: white;
+text-align: left;
+padding: 10px;
+}
+.css p {
+text-align: left;
+color: white;
+padding: 10px;
+}
+.javascript p {
+text-align: left;
+color: white;
+padding: 10px;
+}
+/* PORTAFOLIO */
+.portafolio>div {
+display: inline-block;
+}
+.portafolio>img {
+width: 150px;
+margin: 20px;
 }
